@@ -1,0 +1,94 @@
+body {
+	background: #DCC8FC;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+	border: 0;
+	background: white;
+	height: 1px;
+}
+
+header {
+	text-align: center;
+	color: #232323;
+}
+
+h1, h2, h3 {
+	color: #8544E8;
+}
+
+.paragraf1 {
+	color: #7336AD;
+}
+
+#paragraf2 {
+	color: #7336AD;
+}
+
+#td {
+	color: #7336AD;
+}
+
+.judul {
+	font-size: 26px;
+	color: #8544E8;
+}
+
+.deskripsi1 {
+    font-size: 17px;
+    color: #8544E8;
+}
+
+.deskripsi2 {
+	font-size: 16px;
+	color: #8544E8;
+}
+
+.wrap {
+	width: 700px;
+	margin: 25px auto;
+}
+
+.menu ul {
+	overflow: hidden;
+	color : #fff;
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	width: 640px;
+	margin: 0 0 0;
+	background: #080808;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(240,240,240,0,55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(240,240,240,0,55);
+	box-shadow: 1px 1px 1px 0px rgba(240,240,240,0,55);
+}
+
+.menu ul li {
+	margin: 0;
+	float: left;
+}
+
+.menu ul a {
+	padding: 24px;
+	display: block;
+	font-weight: 600;
+	font-size: 17px
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+.menu ul a:hover {
+	text-decoration: underline;
+	background: black;
+}
+
+@media screen and (max-width: 950px) {
+
+	.header {
+		position: inherit;
+	}
+}
